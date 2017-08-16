@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="helloworld_apikey">
+    <Basepaths>/helloapikey</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1501748662222</CreatedAt>
+    <CreatedBy>aamir.hassan1994@gmail.com</CreatedBy>
+    <Description>hello world protected by API key</Description>
+    <DisplayName>helloworld_apikey</DisplayName>
+    <LastModifiedAt>1501750990268</LastModifiedAt>
+    <LastModifiedBy>aamir.hassan1994@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>remove-query-param-apikey</Policy>
+        <Policy>verify-api-key</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
